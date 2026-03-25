@@ -110,9 +110,8 @@ We repeat the full tournament 100,000 times and count the outcomes. The final re
 
 This is a simplified baseline model that uses only the standard Elo rating as input. The following variables would increase its accuracy:
 
-  * **Player-specific draw rates:** Some players draw far more frequently than others.
-  * **Play style variance:** The model does not account for individual playing styles. A safe, solid style typically leads to lower variance (fewer extreme high and low scores), whereas a high-risk, dynamic style increases fluctuations in both directions.
-  * **Recent form:** Weighting the last 20 games more heavily than historical data.
+  * **Play style variance:** The model does not account for individual playing styles. A safe, solid style typically leads to lower variance (fewer extreme high and low scores), whereas a high-risk, dynamic style increases fluctuations in both directions. Or in other words: Some players draw far more frequently than others.
+  * **Recent form:** Weighting the last x games more heavily than historical data.
   * **Head-to-head history:** Some players consistently outperform their standard Elo against specific opponents.
   * **Color-specific performance:** The White piece advantage varies significantly by player.
 
